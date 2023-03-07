@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-image: url(background.png);
+}
+
+h1{
+    background-color: royalblue;
+    color: lightgrey;
+    width: fit-content;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    margin-left:10%;
+}
+
+nav{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:12%;
+}
+
+header{
+    background-color: whitesmoke;
+    border-bottom: 3px solid royalblue;
+}
+
+.headshot{
+    float: left;
+    margin-left: 3px;
+}
+
+.About-Me{
+    width: 40%;
+    margin-left:10%;
+    background-color:whitesmoke;
+    display: inline-block;
+}
+
+h2{
+    color: royalblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px solid royalblue;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: royalblue
+}
+
+aside{
+    width: 20%;
+    float: right;
+    margin-right: 12%;
+    background-color: whitesmoke;
+}
+
+.icons{
+    max-width: 16%;
+}
+
+footer{
+    background-color: royalblue;
+    color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+}
+
+main::after{
+    content: "";
+    clear: both;
+    display: block;
+}
